@@ -1,5 +1,13 @@
 # Linux Menu - a simple menu shell script
 
+## Short video
+
+Here is a short (less than two minutes long) video on YouTube:
+
+[A simple Linux menu command](https://youtu.be/FwN5_d1TjH4)
+
+showing you the simple Linux menu command in action.
+
 ## Quick Start
 
 Do this all as a normal user - i.e NOT the root user or with sudo.
@@ -14,6 +22,16 @@ Make sure that you have write access to your $HOME/bin directory:
 
 ```
 chmod u+w $HOME/bin
+```
+
+Ensure $HOME/bin is in your PATH environment variable.
+
+Clone the github repo:
+
+```
+cd /var/tmp
+git clone https://github.com/andycranston/linux-menu.git
+cd linux-menu
 ```
 
 Run the install script:
